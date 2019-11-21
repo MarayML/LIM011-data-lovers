@@ -157,3 +157,7 @@ export const filterWeak = (data, array) => {
   }
   return pokemons;
 };
+
+export const example = (data) => {
+  return data.map((obj) => obj.name.toUpperCase());
+};
