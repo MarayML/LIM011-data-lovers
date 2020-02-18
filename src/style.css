@@ -36,7 +36,8 @@ section img{
     font-family: 'Lemon', cursive;
     font-size: 35px;
     font-style: normal;
-    font-weight: normal;      
+    font-weight: normal; 
+    font-family: 'Fredoka One', cursive;     
 }
 
 .section-1 div{
@@ -581,6 +582,7 @@ input[type=checkbox] {
         left:50%;
         font-size: 40px;
         text-align: right;
+        font-family: 'Fredoka One', cursive;
     }
 
    .logo{
