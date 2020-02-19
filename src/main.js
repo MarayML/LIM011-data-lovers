@@ -123,7 +123,7 @@ const paintCardEvolution = (array) => {
       const pokemons = searchPokemonByName(POKEMON, element.name);
       const cardEvolution = document.createElement('div');
       cardEvolution.classList.add('cardEvolution');
-      //cardEvolution.id = pokemons[0].id;
+      cardEvolution.id = pokemons[0].id;
       cardEvolution.innerHTML = `
       <h5>${element.name}</h5>
       <img src="${pokemons[0].img}">
@@ -139,10 +139,6 @@ const paintCardEvolution = (array) => {
       cardEvolution.appendChild(cardImg);
       cardEvolution.appendChild(cardNum);*/
       cardEvolution.querySelector('img')
-      cardEvolution.addEventListener('click', () => {
-
-      })
-
       popupSection3.appendChild(cardEvolution);
     });
   }
