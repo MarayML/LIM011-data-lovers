@@ -10,8 +10,6 @@ import {
   searchInputPokemonByName, example,
 } from './data.js';
 
-console.log(example(POKEMON));
-
 const listPokemones = POKEMON;
 const colorsTypeWeak = [['Fighting', '#B04508'], ['Grass', '#59EC10'], ['Poison', '#5910EC'], ['Fire', '#EC4510'], ['Ice', '#10DBEC'], ['Flying', '#7A3B0D'], ['Psychic', '#F31190'], ['Water', '#040496'], ['Ground', '#B98D03'], ['Rock', '#777673'], ['Electric', '#F5B902'], ['Normal', '#A6A9A6'], ['Dragon', '#A90904'], ['Fairy', '#FA70CF'], ['Ghost', '#5D0642'], ['Dark', '#090909'], ['Steel', '#626060'], ['Bug', '#156506']];
 let listPokemonCandy = '';
