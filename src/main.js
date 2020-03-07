@@ -349,7 +349,12 @@ document.querySelector('#buttonFindCandy').addEventListener('click', () => {
   document.querySelector('.sectionCandyPokemon').innerHTML = '';
   const numberOfCandy = parseInt(document.querySelector('#inputCandy').value, 10);
   listPokemonCandy = findPokemonByCandy(listPokemones, numberOfCandy);
+  if(listPokemonCandy.length == 0)
+  document.querySelector('.msg').classList.remove('hide');
+  else{
+  document.querySelector('.msg').classList.add('hide');
   paintPokemones(listPokemonCandy, '.sectionCandyPokemon', listPokemonCandy.length);
+  }
 });
 
 document.querySelector('#buttonFastPokemon').addEventListener('click', () => {

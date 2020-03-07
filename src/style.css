@@ -80,6 +80,16 @@ section img{
     height: 30%;
 }
 
+.msg{
+    width: 100%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    color:  rgb(219, 203, 28);
+    text-shadow: -2px -2px 1px #46A9AF, 2px 2px 1px #46A9AF, -2px 2px 1px #46A9AF, 2px -2px 1px #46A9AF;
+
+}
+
 /*estilos paginas restantes*/
 
 .page-1, .page-4, .page-3, .page-2 {
