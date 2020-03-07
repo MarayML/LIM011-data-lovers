@@ -9,26 +9,27 @@
   <link rel="stylesheet" href="style.css" />
   <link rel=" stylesheet " href="fonts/style.css">
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body class="body background-none">
   <div id="root">
     <main class="page-0">
       <section class="section-1">
-        <img class="img-section-1" src="img/web-1.jpg" alt="">
-        <div class="link-start" id="link-start-1">POKEMONS</div>
+        <img class="img-section-1" src="img/web-1.jpg" alt="" title="Listado de personajes">
+        <div class="link-start" id="link-start-1" title="Listado de personajes">POKEMONS</div>
       </section>
       <section class="section-2">
-        <img class="img-section-2" src="img/web-2.png" alt="">
-        <div class="link-start" id="link-start-2">POKEDEX</div>
+        <img class="img-section-2" src="img/web-2.png" alt="" title="Filtrar personajes por tipo y debilidad">
+        <div class="link-start" id="link-start-2" title="Filtrar personajes por tipo y debilidad">POKEDEX</div>
       </section>
       <section class="section-3">
-        <img class="img-section-3" src="img/web-3.jpg" alt="">
-        <div class="link-start" id="link-start-3" href="">TOP 10</div>
+        <img class="img-section-3" src="img/web-3.jpg" alt="" title="Personajes más frecuentes">
+        <div class="link-start" id="link-start-3" href="" title="Personajes más frecuentes">TOP 10</div>
       </section>
       <section class="section-4">
-        <img class="img-section-4" src="img/web-4.jpg" alt="">
-        <div class="link-start" id="link-start-4" href="">CANDYS</div>
+        <img class="img-section-4" src="img/web-4.jpg" alt="" title="Personajes por número de caramelos">
+        <div class="link-start" id="link-start-4" href="" title="Personajes por número de caramelos">CANDYS</div>
       </section>
       <section class="logo"><img src="img/web-5.png" alt=""></section>
     </main>
@@ -38,10 +39,10 @@
           <img id="img-logo" src="img/web-5.png" alt="">
         </section>
         <section class="menu">
-          <div class="linkMenu1">POKEMONS</div>
-          <div class="linkMenu2">POKEDEX</div>
-          <div class="linkMenu3">TOP 10</div>
-          <div class="linkMenu4">CANDYS</div>
+          <div class="linkMenu1" title="Listado de personajes">POKEMONS</div>
+          <div class="linkMenu2" title="Filtrar personajes por tipo y debilidad">POKEDEX</div>
+          <div class="linkMenu3" title="Personajes más frecuentes">TOP 10</div>
+          <div class="linkMenu4" title="Personajes por número de caramelos">CANDYS</div>
         </section>
       </header>
       <header class="header-movil">
@@ -50,10 +51,10 @@
           <button id="btn-menu-movil" class="btn-menu-movil"><img src="img/menu-movil.png" alt=""></button>
         </section>
         <section class="menu-movil hide">
-          <div id="linkMenu1-movil" class="linkMenu1 linkMenu-movil">POKEMONS</div>
-          <div id="linkMenu2-movil" class="linkMenu2 linkMenu-movil">POKEDEX</div>
-          <div id="linkMenu3-movil" class="linkMenu3 linkMenu-movil">TOP 10</div>
-          <div id="linkMenu4-movil" class="linkMenu4 linkMenu-movil">CANDYS</div>
+          <div id="linkMenu1-movil" class="linkMenu1 linkMenu-movil" title="Listado de personajes">POKEMONS</div>
+          <div id="linkMenu2-movil" class="linkMenu2 linkMenu-movil" title="Filtrar personajes por tipo y debilidad">POKEDEX</div>
+          <div id="linkMenu3-movil" class="linkMenu3 linkMenu-movil" title="Personajes más frecuentes">TOP 10</div>
+          <div id="linkMenu4-movil" class="linkMenu4 linkMenu-movil" title="Personajes por número de caramelos">CANDYS</div>
         </section>
       </header>
     </div>
@@ -69,8 +70,8 @@
           <option value="6">Ordenar Huevos</option>
         </select>
         <section id="fieldFind">
-          <input type="search" id="textSearch" class="inputStyle-grey" placeholder="Buscar pokemon...">
-          <input type="button" id="buttonSearch" class="inputStyle-grey" value="Buscar">
+          <input type="search" id="textSearch" class="inputStyle-grey" placeholder="Buscar pokemon..." title="Ingrese nombre">
+          <input type="button" id="buttonSearch" class="inputStyle-button" value="Buscar">
         </section>
       </section>
       <section class="sectionInitPokemon"></section>
@@ -250,16 +251,16 @@
 
     <main class="page-3 hide">
       <section id="sectionNumberPokemon">
-        <input type="number" id="inputNumber" placeholder="Top" class="inputStyle-grey">
-        <input type="button" id="buttonFastPokemon" class="inputStyle-grey" value="Buscar">
+        <input type="number" id="inputNumber" class="inputStyle-grey" placeholder="Top frecuentes..." title="Ingrese un número">
+        <input type="button" id="buttonFastPokemon" class="inputStyle-button" value="Buscar">
       </section>
       <section id="sectionFastPokemon"></section>
     </main>
     <main class="page-4 hide">
       <section id="sectionOrderFilterCandy">
         <section id="sectionNumberCandy">
-          <input type="number" id="inputCandy" placeholder="Numero de caramelos..." class="inputStyle-grey">
-          <input type="button" id="buttonFindCandy" class="inputStyle-grey" value="Buscar">
+          <input type="number" id="inputCandy" placeholder="Número de caramelos..." class="inputStyle-grey">
+          <input type="button" id="buttonFindCandy" class="inputStyle-button" value="Buscar">
         </section>
         <select id="fieldOrdenarCandy" class="inputStyle-grey">
           <option selected value="0"> Elige una opción </option>

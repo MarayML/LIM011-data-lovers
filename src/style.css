@@ -69,6 +69,15 @@ section img{
 .logo img{
     width: 50%;
     height: 30%;
+    animation : scales 3s ease infinite;
+}
+
+@keyframes scales{
+    from{
+     transform : scale(0.8)
+    }to{
+    transform : scale(1.1)
+  }
 }
 
 /*estilos paginas restantes*/
@@ -97,6 +106,15 @@ header{
 .menuLogo img{
     width: 100%;
     height: 100%;
+    animation : scales 3s ease infinite;
+}
+
+@keyframes scales{
+    from{
+     transform : scale(0.8)
+    }to{
+    transform : scale(1.1)
+  }
 }
 
 .menu{
@@ -178,7 +196,6 @@ header{
 
 #fieldFind{
     display: flex;
-    width: 20%;
     justify-content: space-between;
 }
 
@@ -476,7 +493,6 @@ input[type=checkbox] {
 }
 
 .sectionFilterType {
-    background: rgb(134, 131, 120);
     justify-content: space-around;
 }
 
@@ -930,10 +946,10 @@ input[type=checkbox] {
   box-shadow: 0 0 10px rgb(136, 60, 60);
 }
 
-.inputStyle-grey {
+.inputStyle-grey, .inputStyle-button {
     width: 200px;
     margin-bottom: 30px;
-    height: 36px;
+    height: 30px;
     padding-left: 8px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -942,7 +958,10 @@ input[type=checkbox] {
     border: rgb(122, 70, 70) 1px solid;
     box-shadow: inset 0 0 10px rgb(145, 145, 145);
   }
-
+.inputStyle-button{
+    width: 100px;
+    margin-left: 10px;
+}
   #fieldOrdenar {
     width: 200px;
   }
