@@ -572,7 +572,7 @@ input[type=checkbox] {
 }
 
 @media screen and (max-width:800px){
-    #sectionOrderFilter, #sectionOrderFilterCandy{
+    #sectionOrderFilterCandy{
         flex-direction: column ;
     }
     main{
@@ -734,7 +734,19 @@ input[type=checkbox] {
 }
 
 @media screen and (max-width:600px){
-    .link-start{
+#sectionOrderFilter{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sectionOrderFilter #fieldFind{
+    width: 50%;
+}
+
+.link-start{
         font-size: 35px;
         text-align: center;
         top: 30%;
@@ -956,7 +968,7 @@ input[type=checkbox] {
 }
 
 .inputStyle-grey, .inputStyle-button {
-    width: 200px;
+    width: 70%;
     margin-bottom: 30px;
     height: 30px;
     padding-left: 8px;
